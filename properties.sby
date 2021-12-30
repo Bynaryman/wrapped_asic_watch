@@ -6,7 +6,7 @@ smtbmc
 
 [script]
 read -formal wrapper.v asic_watch.v count10m.v count24h.v count60m.v count60s.v crystal2hz.v segment7.v
-prep -top wrapped_project
+prep -top wrapped_asic_watch
 
 [files]
 wrapper.v
