@@ -1,0 +1,3 @@
+[submodule "asic_watch"]
+	path = asic_watch
+	url = https://gitlab.com/Bynaryman/asic_watch
