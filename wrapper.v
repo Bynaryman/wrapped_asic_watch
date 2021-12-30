@@ -148,9 +148,23 @@ module wrapped_project(
     // permanently set oeb so that outputs are always enabled: 0 is output, 1 is high-impedance
     assign buf_io_oeb = {`MPRJ_IO_PADS{1'b0}};
 
-    // Instantiate your module here, 
-    // connecting what you need of the above signals. 
-    // Use the buffered outputs for your module's outputs.
+    wire wb_valid = wbs_cyc_i & wbs_stb_i;
+    wire watch_write = wb_valid;
+    wire rst_watch =  wb_rst_i | la1_data_in[0];
+
+    // instantiate your module here, connecting what you need of the above signals
+    asic_watch asic_watch_inst(
+        .sysclk_i     ( wb_clk_i          ), // 32.768 KHz shared with SoC
+        .smode_i      ( io_in[36]         ), // safe mode
+        .sclk_i       ( io_in[37]         ), // safe clock GPIO 32.768 KHz
+        .rst_i        ( rst_watch         ), // active high and syncronous to clock
+        .dvalid_i     ( watch_write       ), // Data from wishbone is valid
+        .cfg_i        ( wbs_dat_i[11:0]   ), // initial values for counters
+        .segment_hxxx ( buf_io_out[14:8]  ),
+        .segment_xhxx ( buf_io_out[21:15] ),
+        .segment_xxmx ( buf_io_out[28:22] ),
+        .segment_xxxm ( buf_io_out[35:29] )
+    );
 
 endmodule 
 `default_nettype wire
