@@ -3,7 +3,7 @@
     `define MPRJ_IO_PADS 38    
 `endif
 
-//`define USE_WB  1
+`define USE_WB  1
 `define USE_LA  1
 `define USE_IO  1
 //`define USE_SHARED_OPENRAM 1
