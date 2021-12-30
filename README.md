@@ -1,16 +1,11 @@
-# Information about your project
+# 7 segment ASIC watch 
 
-This is a template project you can clone and use to take part in the multi project submission to the
-Google/Efabless/Skywater shuttle.
+We propose a modest design for the mpw4 shuttle which comprises 4 7-segment digits that show you the time.
+The design allows the user to set/reset the time thanks to the risc-v.
+It will output the segment to the gpio pins
 
-The tools that will test and create the aggregated design are here: https://github.com/mattvenn/multi_project_tools
+# Authors
 
-# Project info.yaml
+Guillem Cabo
+Ledoux Louis
 
-You need to fill in the fields of [info.yaml](info.yaml)
-
-See [here for more information](https://github.com/mattvenn/multi_project_tools/blob/main/docs/project_spec.md)
-
-# License
-
-This project is [licensed under Apache 2](LICENSE)
