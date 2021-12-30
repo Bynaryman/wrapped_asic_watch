@@ -21,7 +21,7 @@ set ::env(PL_TARGET_DENSITY) 0.4
 set ::env(PL_RESIZER_BUFFER_OUTPUT_PORTS) 0
 
 # set absolute size of the die to 100 x 220 um
-set ::env(DIE_AREA) "0 0 100 220"
+set ::env(DIE_AREA) "0 0 220 220"
 set ::env(FP_SIZING) absolute
 
 # define number of IO pads
