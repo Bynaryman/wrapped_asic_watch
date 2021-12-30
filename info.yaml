@@ -1,21 +1,20 @@
---- 
 # information
 project: 
-  title: "title"
-  description: "description"
-  picture: docs/empty.png
-  author: "Author"
+  title: "ASIC watch"
+  description: "a 7 segment fashion watch targeting asic and sky130 process node"
+  picture: docs/layers.png
+  author: "Guillem Cabo & Ledoux Louis"
   license: LICENSE
 
 # optional interfaces you want to use: gpio, la1, la2, la3, irq, clk2, wishbone & openram
-interfaces: ['la1', 'gpio']
+interfaces: ['la1', 'gpio', 'wishbone']
 
 # test within caravel
 caravel_test:
-  recipe: "coco_test"
+  recipe: "verilog"
   directory: "caravel_test"
   id: 1
-  module_name: "wrapped_project"
+  module_name: "wrapped_asic_watch"
 
 # module test
 module_test:
@@ -35,11 +34,17 @@ openlane:
 # source required for various configs and module instantiation
 source:
     - wrapper.v
-    - other source files here
+    - asic_watch.v
+    - count10m.v
+    - count24h.v
+    - count60m.v
+    - count60s.v
+    - crystal2hz.v
+    - segment7.v
 
 # gds - check nothing on metal 5, DRC & LVS
 gds:
   directory: "gds"
-  gds_filename: "project.gds"
-  lvs_filename: "project.lvs.powered.v"
-  lef_filename: "project.lef"
+  gds_filename: "wrapped_asic_watch.gds"
+  lvs_filename: "wrapped_asic_watch.lvs.powered.v"
+  lef_filename: "wrapped_asic_watch.lef"

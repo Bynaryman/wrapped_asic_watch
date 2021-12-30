@@ -1,0 +1,121 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Thu Dec 30 10:14:05 2021
+[*]
+[dumpfile] "/home/zerotoasic/asic_tools/caravel_user_project/verilog/dv/asic_watch/asic_watch.vcd"
+[dumpfile_mtime] "Thu Dec 30 10:12:43 2021"
+[dumpfile_size] 18926119
+[savefile] "/home/zerotoasic/asic_tools/caravel_user_project/verilog/dv/asic_watch/waveform.gtkw"
+[timestart] 0
+[size] 1846 922
+[pos] -51 -51
+*-20.000000 897000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] asic_watch_tb.
+[treeopen] asic_watch_tb.uut.
+[sst_width] 233
+[signals_width] 296
+[sst_expanded] 1
+[sst_vpaned_height] 256
+@c00022
+asic_watch_tb.uut.mprj.analog_io[28:0]
+@28
+(0)asic_watch_tb.uut.mprj.analog_io[28:0]
+(1)asic_watch_tb.uut.mprj.analog_io[28:0]
+(2)asic_watch_tb.uut.mprj.analog_io[28:0]
+(3)asic_watch_tb.uut.mprj.analog_io[28:0]
+(4)asic_watch_tb.uut.mprj.analog_io[28:0]
+(5)asic_watch_tb.uut.mprj.analog_io[28:0]
+(6)asic_watch_tb.uut.mprj.analog_io[28:0]
+(7)asic_watch_tb.uut.mprj.analog_io[28:0]
+(8)asic_watch_tb.uut.mprj.analog_io[28:0]
+(9)asic_watch_tb.uut.mprj.analog_io[28:0]
+(10)asic_watch_tb.uut.mprj.analog_io[28:0]
+(11)asic_watch_tb.uut.mprj.analog_io[28:0]
+(12)asic_watch_tb.uut.mprj.analog_io[28:0]
+(13)asic_watch_tb.uut.mprj.analog_io[28:0]
+(14)asic_watch_tb.uut.mprj.analog_io[28:0]
+(15)asic_watch_tb.uut.mprj.analog_io[28:0]
+(16)asic_watch_tb.uut.mprj.analog_io[28:0]
+(17)asic_watch_tb.uut.mprj.analog_io[28:0]
+(18)asic_watch_tb.uut.mprj.analog_io[28:0]
+(19)asic_watch_tb.uut.mprj.analog_io[28:0]
+(20)asic_watch_tb.uut.mprj.analog_io[28:0]
+(21)asic_watch_tb.uut.mprj.analog_io[28:0]
+(22)asic_watch_tb.uut.mprj.analog_io[28:0]
+(23)asic_watch_tb.uut.mprj.analog_io[28:0]
+(24)asic_watch_tb.uut.mprj.analog_io[28:0]
+(25)asic_watch_tb.uut.mprj.analog_io[28:0]
+(26)asic_watch_tb.uut.mprj.analog_io[28:0]
+(27)asic_watch_tb.uut.mprj.analog_io[28:0]
+(28)asic_watch_tb.uut.mprj.analog_io[28:0]
+@1401200
+-group_end
+@22
+asic_watch_tb.uut.mprj.io_in[37:0]
+asic_watch_tb.uut.mprj.io_oeb[37:0]
+asic_watch_tb.uut.mprj.io_out[37:0]
+asic_watch_tb.uut.mprj.la_data_in[127:0]
+asic_watch_tb.uut.mprj.la_data_out[127:0]
+asic_watch_tb.uut.mprj.la_oenb[127:0]
+@28
+asic_watch_tb.uut.mprj.user_clock2
+asic_watch_tb.uut.mprj.user_irq[2:0]
+asic_watch_tb.uut.mprj.vccd1
+asic_watch_tb.uut.mprj.vccd2
+asic_watch_tb.uut.mprj.vdda1
+asic_watch_tb.uut.mprj.vdda2
+asic_watch_tb.uut.mprj.vssa1
+asic_watch_tb.uut.mprj.vssa2
+asic_watch_tb.uut.mprj.vssd1
+asic_watch_tb.uut.mprj.vssd2
+asic_watch_tb.uut.mprj.wb_clk_i
+asic_watch_tb.uut.mprj.wb_rst_i
+asic_watch_tb.uut.mprj.wbs_ack_o
+@800023
+asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+@29
+(0)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(1)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(2)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(3)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(4)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(5)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(6)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(7)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(8)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(9)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(10)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(11)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(12)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(13)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(14)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(15)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(16)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(17)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(18)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(19)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(20)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(21)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(22)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(23)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(24)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(25)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(26)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(27)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(28)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(29)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(30)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+(31)asic_watch_tb.uut.mprj.wbs_adr_i[31:0]
+@1001201
+-group_end
+@28
+asic_watch_tb.uut.mprj.wbs_cyc_i
+@22
+asic_watch_tb.uut.mprj.wbs_dat_i[31:0]
+asic_watch_tb.uut.mprj.wbs_dat_o[31:0]
+asic_watch_tb.uut.mprj.wbs_sel_i[3:0]
+@28
+asic_watch_tb.uut.mprj.wbs_stb_i
+asic_watch_tb.uut.mprj.wbs_we_i
+[pattern_trace] 1
+[pattern_trace] 0
