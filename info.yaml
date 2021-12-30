@@ -34,13 +34,13 @@ openlane:
 # source required for various configs and module instantiation
 source:
     - wrapper.v
-    - asic_watch.v
-    - count10m.v
-    - count24h.v
-    - count60m.v
-    - count60s.v
-    - crystal2hz.v
-    - segment7.v
+    - asic_watch/src/asic_watch.v
+    - asic_watch/src/count10m.v
+    - asic_watch/src/count24h.v
+    - asic_watch/src/count60m.v
+    - asic_watch/src/count60s.v
+    - asic_watch/src/crystal2hz.v
+    - asic_watch/src/segment7.v
 
 # gds - check nothing on metal 5, DRC & LVS
 gds:
