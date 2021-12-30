@@ -5,13 +5,14 @@ project:
   picture: docs/layers.png
   author: "Guillem Cabo & Ledoux Louis"
   license: LICENSE
+  waive_module_test: "no test provided" 
 
 # optional interfaces you want to use: gpio, la1, la2, la3, irq, clk2, wishbone & openram
 interfaces: ['la1', 'gpio', 'wishbone']
 
 # test within caravel
 caravel_test:
-  recipe: "verilog"
+  recipe: "all"
   directory: "caravel_test"
   id: 8
   module_name: "wrapped_asic_watch"
