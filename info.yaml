@@ -13,7 +13,7 @@ interfaces: ['la1', 'gpio', 'wishbone']
 caravel_test:
   recipe: "verilog"
   directory: "caravel_test"
-  id: 1
+  id: 8
   module_name: "wrapped_asic_watch"
 
 # module test

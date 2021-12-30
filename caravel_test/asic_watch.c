@@ -80,15 +80,13 @@ void main()
     // activate the project by setting the 0th bit of 1st bank of LA
     reg_la0_iena = 0; // input enable off
     reg_la0_oenb = 0; // output enable bar low (enabled)
-    reg_la0_data = 1;
+    reg_la0_data = 1 << 8;
 
     // reset design with 0bit of 2nd bank of LA
     reg_la1_oenb = 0;
     reg_la1_iena = 0;
-    for (int i=0 ; i < 1000 ; i++) {
-    	reg_la1_data = 1;
-    }
-    reg_la1_data = 16;
+    reg_la1_data = 1;
+    reg_la1_data = 0;
 
     // no need for anything else as this design is free running.
 
